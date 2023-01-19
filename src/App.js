@@ -1,7 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import {useEffect} from "react";
+import { Amplify, API } from 'aws-amplify'
+import awsExports from "./aws-exports";
+import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 
-function App() {
+Amplify.configure(awsExports);
+
+function getData() {
+  const apiName = 'apib0281fee';
+  const path = '/notification';
+
+  return API.get(apiName, path);
+}
+
+  const result = async() => {
+    return await getData()
+  }
+
+function App({ signOut, user }) {
+
+result();
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
