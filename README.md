@@ -30,3 +30,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Resources that helped me build this
+
+Amazing video that explains implementing web puh notificaitons 
+https://www.youtube.com/watch?v=2zHqTjyfIY8
+
+Awesome article that talks about implementing push notifications as well 
+https://felixgerschau.com/web-push-notifications-tutorial/#send-the-subscription-to-the-backend
+

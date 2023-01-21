@@ -1,0 +1,10 @@
+{
+  "resourceName": "pushenhancedashboard",
+  "tableName": "subscription",
+  "partitionKey": {
+    "fieldName": "subscriptionId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

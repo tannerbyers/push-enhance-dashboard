@@ -16,14 +16,22 @@
       "function": {
         "pushenhancedashboardf59c2c8c": {
           "deploymentBucketName": "amplify-pushenhancedashboard-dev-121951-deployment",
-          "s3Key": "amplify-builds/pushenhancedashboardf59c2c8c-7750374a536151536478-build.zip"
+          "s3Key": "amplify-builds/pushenhancedashboardf59c2c8c-67455a532f6432655657-build.zip"
+        },
+        "subscriptionlambda": {
+          "deploymentBucketName": "amplify-pushenhancedashboard-dev-121951-deployment",
+          "s3Key": "amplify-builds/subscriptionlambda-4231374e417a70313943-build.zip"
         }
       },
       "auth": {
         "pushenhancedashboard": {}
       },
       "api": {
-        "apib0281fee": {}
+        "apib0281fee": {},
+        "crudapi": {}
+      },
+      "storage": {
+        "pushenhancedashboard": {}
       }
     }
   }

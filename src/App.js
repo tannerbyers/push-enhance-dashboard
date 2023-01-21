@@ -8,20 +8,14 @@ import '@aws-amplify/ui-react/styles.css';
 
 Amplify.configure(awsExports);
 
-function getData() {
-  const apiName = 'apib0281fee';
-  const path = '/notification';
+  const apiName = 'crudapi';
+  const path = '/subscription';
 
-  return API.get(apiName, path);
-}
+ API.get(apiName, path);
 
-  const result = async() => {
-    return await getData()
-  }
 
 function App({ signOut, user }) {
 
-result();
   return (
     <div className="App">
       <header className="App-header">
