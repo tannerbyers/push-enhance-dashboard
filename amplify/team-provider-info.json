@@ -32,6 +32,12 @@
       },
       "storage": {
         "pushenhancedashboard": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dncmqfz1x5m7k",
+          "type": "cicd"
+        }
       }
     }
   }
