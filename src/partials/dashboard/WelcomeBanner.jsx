@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import { Auth } from 'aws-amplify';
 
 function WelcomeBanner() {
-  Auth.currentUserInfo().then(({username}) => {
-    setUsername(username)
-  })
+  // Auth.currentUserInfo().then(({username}) => {
+  //   setUsername(username)
+  // })
 
   const [username, setUsername] = useState("")
   return (

@@ -16,17 +16,6 @@ import {
 } from 'react-router-dom';
 
 
-import { Amplify, API } from "aws-amplify";
-import awsExports from "./aws-exports";
-import { withAuthenticator, Button, Heading } from "@aws-amplify/ui-react";
-import "@aws-amplify/ui-react/styles.css";
-
-Amplify.configure(awsExports);
-
-const apiName = "crudapi";
-const path = "/subscription";
-
-API.get(apiName, path);
 
 function App({ signOut, user }) {
   return (
@@ -37,4 +26,4 @@ function App({ signOut, user }) {
 );
 }
 
-export default withAuthenticator(App);
+export default App;
